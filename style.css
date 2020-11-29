@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.functions{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    flex-direction: row;
+}
+.start{
+    border: 3px solid darkcyan;
+    background-color: chartreuse;
+    color: darkcyan;
+    padding: 5px;
+}
+.start:hover{
+    padding: 6px;
+}
+.stop{
+    border: 3px solid darkred;
+    background-color: red;
+    color: darkred;
+    padding: 5px;
+}
+.stop:hover{
+    padding: 6px;
+}
